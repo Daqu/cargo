@@ -18,7 +18,7 @@
   (find-file "~/.emacs.d/init.el"))
 
 ;; close auto save
-(setq auto-save-default nil)
+(setq  make-backup-files nil)
 
 ;; show line number
 (global-linum-mode 1)
