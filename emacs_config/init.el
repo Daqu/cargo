@@ -4,12 +4,11 @@
 
 (package-initialize)
 
+;; conviently find config files
 (add-to-list 'load-path' "~/.emacs.d/lisp/")
 
-;; edit config conviently
-(defun open-my-init-file()
-  (interactive)
-  (find-file "~/.emacs.d/init.el"))
+;; custom config
+(load "custom.el")
 
 ;; package management
 ;; ------------------
@@ -18,6 +17,5 @@
 (require 'file)
 (require 'edit)
 
-
-
 ;; -----------------end---------------------
+
