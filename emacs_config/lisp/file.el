@@ -1,5 +1,8 @@
 ;; config for file
 
+;; set encoding
+(set-language-environment "UTF-8")
+
 ;; close auto backup
 (setq make-backup-files nil)
 
