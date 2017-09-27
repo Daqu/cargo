@@ -6,9 +6,11 @@
       (equal "windows-nt" (symbol-name system-type))
       1 nil))
 
-;; set font if in windows (emacs 25.1 will be slow if font is not be 宋体)
-(if
-    (windows-nt?)
-    (set-default-font"-outline-宋体-normal-normal-normal-*-20-*-*-*-p-*-iso8859-1"))
+;; 引用中文字体插件
+(require 'cnfonts)
+;; 让 cnfonts 随着 Emacs 自动生效。
+(cnfonts-enable)
+;; 让 spacemacs mode-line 中的 Unicode 图标正确显示。
+(cnfonts-set-spacemacs-fallback-fonts)
 
 (provide 'compat)

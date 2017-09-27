@@ -12,8 +12,12 @@
 
  ;; Add Packages and make it auto installed
  (defvar my/packages '(
-		;; --- Auto-completion ---
-		company
+		       ;; --- Auto-completion ---
+		       company
+		       ;; --- show-indention ---
+		       highlight-indentation
+		       ;; --- solve fonts ---
+		       cnfonts
 		) "Default packages")
 
  (setq package-selected-packages my/packages)
