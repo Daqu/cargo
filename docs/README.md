@@ -1,5 +1,6 @@
 # 钟俊的杂货店
 
-> 你走过的路，看过的风景，都会是你人生中的财富...
-
 这里啥都有，但都是无用的东西。感谢[docsify这个项目](https://docsify.js.org/)!!
+
+- <a href="#/outputs/index">输出</a>
+- <a href="/#/days/index">日报</a>
